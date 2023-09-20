@@ -1,3 +1,5 @@
+--Receives the input from the RemoteEvent and fires the visual module
+
 local rp = game:GetService("ReplicatedStorage")
 local Specs = rp:WaitForChild("Specs")
 local HollowPurple = Specs:FindFirstChild("HollowPurple")

@@ -1,3 +1,5 @@
+--Creates the flashy visuals and calculates hits
+
 local Animations = script:WaitForChild("Animations")
 local Meshes = script.Meshes
 
