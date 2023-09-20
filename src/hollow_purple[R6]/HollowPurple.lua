@@ -27,7 +27,9 @@ HollowPurple.OnServerEvent:Connect(function(Player,direction)
 	local NewParticles = Electricity:Clone()
 	NewParticles.Parent = Humrp
 	Debris:AddItem(NewParticles, length)
-	
+
+	--Sorry for anybody looking at the code below
+		
 	spawn(function()
 		Action:GetMarkerReachedSignal("CreateOrbs"):Connect(function()
 			VFXModule.createOrbs(Folder,Humrp,direction,Player,Character)
